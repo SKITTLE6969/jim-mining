@@ -9,7 +9,7 @@ Config = {
 	img = "qb-inventory/html/images/", --Set this to the image directory of your inventory script or "nil" if using newer qb-menu
 	CheckMarks = true, -- shows checkmarks if user has the materials to craft an item, set false if causing lag.
 	Lan = "en", -- Pick your language here
-	JimMenu = true, -- Set this to true if using update qb-menu with icons
+	JimMenu = false, -- Set this to true if using update qb-menu with icons
 	JimShops = false, -- Set this to true if using jim-shops
 	Job = nil, -- set this to a job role eg "miner" or nil for no job
 	Notify = "qb",
@@ -152,24 +152,24 @@ Config = {
 
 ------------------------------------------------------------
 	SellItems = { -- Selling Prices
-		['copperore'] = 100,
-		['goldore'] = 100,
-		['silverore'] = 100,
-		['ironore'] = 100,
-		['carbon'] = 100,
+		['copperore'] = 25,
+		['goldore'] = 25,
+		['silverore'] = 25,
+		['ironore'] = 25,
+		['carbon'] = 25,
 
-		['goldingot'] = 100,
-		['silveringot'] = 100,
+		['goldingot'] = 50,
+		['silveringot'] = 50,
 
-		['uncut_emerald'] = 100,
-		['uncut_ruby'] = 100,
-		['uncut_diamond'] = 100,
-		['uncut_sapphire'] = 100,
+		['uncut_emerald'] = 50,
+		['uncut_ruby'] = 50,
+		['uncut_diamond'] = 50,
+		['uncut_sapphire'] = 50,
 
-		['emerald'] = 100,
-		['ruby'] = 100,
-		['diamond'] = 100,
-		['sapphire'] = 100,
+		['emerald'] = 75,
+		['ruby'] = 75,
+		['diamond'] = 75,
+		['sapphire'] = 75,
 
 		['diamond_ring'] = 100,
 		['emerald_ring'] = 100,
@@ -180,30 +180,30 @@ Config = {
 		['ruby_ring_silver'] = 100,
 		['sapphire_ring_silver'] = 100,
 
-		['diamond_necklace'] = 100,
-		['emerald_necklace'] = 100,
-		['ruby_necklace'] = 100,
-		['sapphire_necklace'] = 100,
-		['diamond_necklace_silver'] = 100,
-		['emerald_necklace_silver'] = 100,
-		['ruby_necklace_silver'] = 100,
-		['sapphire_necklace_silver'] = 100,
+		['diamond_necklace'] = 150,
+		['emerald_necklace'] = 150,
+		['ruby_necklace'] = 150,
+		['sapphire_necklace'] = 150,
+		['diamond_necklace_silver'] = 150,
+		['emerald_necklace_silver'] = 150,
+		['ruby_necklace_silver'] = 150,
+		['sapphire_necklace_silver'] = 150,
 
-		['diamond_earring'] = 100,
-		['emerald_earring'] = 100,
-		['ruby_earring'] = 100,
-		['sapphire_earring'] = 100,
-		['diamond_earring_silver'] = 100,
-		['emerald_earring_silver'] = 100,
-		['ruby_earring_silver'] = 100,
-		['sapphire_earring_silver'] = 100,
+		['diamond_earring'] = 175,
+		['emerald_earring'] = 175,
+		['ruby_earring'] = 175,
+		['sapphire_earring'] = 175,
+		['diamond_earring_silver'] = 175,
+		['emerald_earring_silver'] = 175,
+		['ruby_earring_silver'] = 175,
+		['sapphire_earring_silver'] = 175,
 
-		['gold_ring'] = 100,
-		['goldchain'] = 100,
-		['goldearring'] = 100,
-		['silver_ring'] = 100,
-		['silverchain'] = 100,
-		['silverearring'] = 100,
+		['gold_ring'] = 250,
+		['goldchain'] = 250,
+		['goldearring'] = 250,
+		['silver_ring'] = 250,
+		['silverchain'] = 250,
+		['silverearring'] = 250,
 
 	},
 
